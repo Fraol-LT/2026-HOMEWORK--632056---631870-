@@ -34,4 +34,3 @@ public class StanzaBuiaTest {
 		assertEquals(e, stanza.getDescrizione());
 	}
 }
-

@@ -1,13 +1,12 @@
 package it.uniroma3.diadia.giocatore;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class GiocatoreTest {
+import it.uniroma3.diadia.giocatore.Giocatore;
 
+public class GiocatoreTest {
+	
 	Giocatore g = new Giocatore();
 	
 	@Test
@@ -25,6 +24,4 @@ public class GiocatoreTest {
 	public void testGetBorsaDefault() {
 		assertNotNull(g.getBorsa());
 	}
-
 }
-
